@@ -1,0 +1,85 @@
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: auto;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background: rgb(55, 50, 50);
+}
+.container {
+  width: 50%;
+  margin: auto;
+}
+header {
+  width: 100%;
+  background-color: rgb(98, 156, 223);
+}
+h1 {
+  color: white;
+  margin: auto;
+  padding: 5px 0;
+  font-size: 48px;
+  text-align: center;
+  text-transform: lowercase;
+}
+nav {
+  background-color: white;
+}
+h2 {
+  color: white;
+  margin: auto;
+  padding: 5px 0;
+  text-align: center;
+}
+nav div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(98, 156, 223);
+}
+.navPadding {
+  padding: 10px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(98, 156, 223);
+}
+.navHover:hover {
+  color: white;
+  background-color: rgb(98, 156, 223);
+}
+.boxes {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+  padding: 30px 0;
+}
+.boxes-grid {
+  height: 200px;
+  border-radius: 15px;
+}
+#box1 {
+  background-color: blue;
+}
+.correct {
+  color: green;
+}
+.wrong {
+  color: red;
+}
+.difficultySelected {
+  background: rgb(98, 156, 223);
+  color: white;
+}
+.hidden {
+  visibility: hidden;
+}
+.visible {
+  visibility: visible;
+}
